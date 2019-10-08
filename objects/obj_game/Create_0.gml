@@ -1,4 +1,3 @@
-
 global.one_second = game_get_speed(gamespeed_fps);
 global.destroyed = [];
 instance_create_layer(0,0,"Instances",obj_input);
@@ -38,3 +37,7 @@ inventory_add_item(obj_ring_item);
 //inventory_add_item(obj_sword_item);
 inventory_add_item(obj_bomb_item);
 inventory_add_item(obj_bow_item);
+
+//z-titling setup
+gpu_set_ztestenable(true)
+gpu_set_zwriteenable(true)

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "09f635a8-ac90-415f-a303-1c8dce211494",
+            "Value": {
+                "id": "657f2f46-12cb-44b5-9056-1cd25caec118",
+                "resourcePath": "objects\\obj_snake\\obj_snake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a262a1a-72e0-4bc4-86cb-8408f4a22d88",
             "Value": {
                 "id": "b0ba367b-7e88-4f04-ac60-281a48b0ea0f",
@@ -132,6 +140,14 @@
                 "id": "b395381e-8e7b-469f-8493-4953cfcd52c0",
                 "resourcePath": "scripts\\initialize_hurtbox_entity\\initialize_hurtbox_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "138678af-0674-4c9a-9133-96d00afbde5c",
+            "Value": {
+                "id": "741bd1a9-abd7-4ec5-80a4-bb66233c4cca",
+                "resourcePath": "rooms\\r_snake\\r_snake.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "2c2129ce-94b6-45bb-bf81-3609d522f14c",
+            "Value": {
+                "id": "880cf442-2813-40d7-8f08-44d3f6e26891",
+                "resourcePath": "objects\\obj_venom\\obj_venom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ca09a3c-0308-4819-a6e0-363c2e0ab02d",
             "Value": {
                 "id": "54a836d0-816c-4857-82b7-60ef72f10251",
@@ -267,6 +291,14 @@
             "Value": {
                 "id": "5c10ef0a-b265-4a17-b890-67826be488d8",
                 "resourcePath": "sprites\\spr_small_shadow\\spr_small_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "408e48d3-dc6d-4734-b863-f85107c16be8",
+            "Value": {
+                "id": "26799fb0-a06d-4633-9e8d-82ece1334bd9",
+                "resourcePath": "sprites\\spr_venom\\spr_venom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -796,6 +828,14 @@
                 "id": "52789c6e-641c-4172-b2d7-46465c39b95c",
                 "resourcePath": "scripts\\create_hitbox\\create_hitbox.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8aa6a23c-84cb-47a6-83a3-e2a3510cb67c",
+            "Value": {
+                "id": "41f6afe4-848d-4c76-b101-0ca69018fb0b",
+                "resourcePath": "sprites\\spr_snake\\spr_snake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

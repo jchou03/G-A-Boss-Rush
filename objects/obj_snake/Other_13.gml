@@ -1,0 +1,2 @@
+/// @description bite state
+
