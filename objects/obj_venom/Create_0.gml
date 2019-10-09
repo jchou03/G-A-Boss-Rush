@@ -2,8 +2,12 @@ event_inherited();
 image_speed = 0;
 image_index = 0;
 targets_ = [obj_player]
-destroy_on_contact_ = false;
+
+collision_ = false;
+
+state_ = venom.projectile;
 
 enum venom{
-	
+	projectile,
+	puddle
 }
