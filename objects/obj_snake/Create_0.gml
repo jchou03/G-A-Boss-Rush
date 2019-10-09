@@ -3,9 +3,10 @@ image_speed = 0.5;
 
 max_health_ = 15;
 health_ = max_health_;
-state_ = snake.venom;
+state_ = snake.idle;
 
-attack_counter_ = 5;
+attack_counter_ = 4;
+tail_attack_ = false;
 
 enum snake{
 	hit,
