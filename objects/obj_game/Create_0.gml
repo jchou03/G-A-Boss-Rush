@@ -38,6 +38,9 @@ inventory_add_item(obj_sword_item);
 inventory_add_item(obj_bomb_item);
 inventory_add_item(obj_bow_item);
 
+//randomize the seed
+randomize();
+
 //z-titling setup
 gpu_set_ztestenable(true)
 gpu_set_zwriteenable(true)

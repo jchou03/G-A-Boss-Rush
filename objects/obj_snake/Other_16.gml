@@ -1,8 +1,16 @@
 /// @description idle state
 
 var _direction_choice = random(360);
-
-direction_ = point_direction(x,y,obj_player.x,obj_player.y) + _direction_choice;
+var _attack = irandom(1);
+switch(_attack){
+	case 0:
+		direction_ = point_direction(x,y,obj_player.x,obj_player.y) + _direction_choice;
+		break;
+	case 1:
+		direction_ = point_direction(x,y,obj_player.x,obj_player.y);
+		tail_attack_ = true;
+		break;
+}
 
 if(alarm[3] <= 0){
 	alarm[2] = global.one_second * random(2);
