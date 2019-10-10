@@ -10,4 +10,5 @@ if(tail_attack_ == false){
 if(alarm[4] <= 0){
 	state_ = snake.idle;
 	tail_attack_ = false;
+	alarm[3] = global.one_second
 }
