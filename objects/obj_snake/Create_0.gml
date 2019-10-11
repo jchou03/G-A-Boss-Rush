@@ -3,7 +3,7 @@ image_speed = 0.5;
 
 max_health_ = 15;
 health_ = max_health_;
-starting_state_ = snake.idle;
+starting_state_ = snake.burrow;
 state_ = starting_state_;
 
 attack_counter_ = 4;

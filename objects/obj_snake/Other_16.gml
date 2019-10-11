@@ -2,6 +2,9 @@
 
 var _direction_choice = random(360);
 var _attack = irandom(1);
+if(health_%4 = 0){
+	if(irandom(1) == 1) state_ = snake.burrow;
+}
 switch(_attack){
 	case 0:
 		direction_ = point_direction(x,y,obj_player.x,obj_player.y) + _direction_choice;
