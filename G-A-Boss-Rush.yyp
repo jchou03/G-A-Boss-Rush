@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "352a4f5c-8b67-4821-ae20-fb6464301fad",
+            "Value": {
+                "id": "44233125-d0db-4bcc-9baf-5656658c7ac7",
+                "resourcePath": "sprites\\spr_small_fire_ball\\spr_small_fire_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3949cb53-0702-497d-8fcd-5a49afc4c3e0",
             "Value": {
                 "id": "8e2b27fb-ed72-4906-bc2d-d4fbda10f4d1",
