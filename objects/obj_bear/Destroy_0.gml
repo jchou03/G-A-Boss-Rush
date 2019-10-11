@@ -1,4 +1,4 @@
 /// @description Insert description here
-// You can write your code in this editor
+//Play Okalani's capture animation  
 
 add_to_destroyed_list(obj_bear);
