@@ -1,0 +1,1 @@
+draw_text(5,15,"small boi state: " + string(state));

@@ -3,4 +3,4 @@
 acting = true;
 speed = 0;
 sprite_index = spr_mosquito_land;
-alarm[0] = 180;
+//alarm[0] = 180;
