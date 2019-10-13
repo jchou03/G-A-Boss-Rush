@@ -4,11 +4,10 @@
     "mvc": "1.1",
     "name": "749909a6-efce-43a6-aff2-f891b91c27e2",
     "children": [
+        "09f635a8-ac90-415f-a303-1c8dce211494",
         "8fbc3a21-a720-44d9-836c-fefc3b5047bb",
-        "0a94f274-26d6-4686-806c-ce722d406b68",
-        "e5e7a788-aac7-4350-8e4c-50b4a02a5631",
-        "46981965-1ffd-4a75-9cd1-7aa486ae7531",
-        "09f635a8-ac90-415f-a303-1c8dce211494"
+        "2c2129ce-94b6-45bb-bf81-3609d522f14c",
+        "32e82c9e-6da7-46a4-b521-8d35afb991e1"
     ],
     "filterType": "GMObject",
     "folderName": "Enemies",
