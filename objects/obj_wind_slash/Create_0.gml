@@ -1,5 +1,14 @@
 /// @description Insert description here
 
-direction = point_direction(obj_fish.x,obj_fish.y,obj_player.x,obj_player.y);
-speed = 3;
-image_angle = direction;
+event_inherited();
+image_speed = 0;
+image_index = 0;
+targets_ = [obj_player]
+
+collision_ = false;
+
+state_ = wind_slash.projectile;
+
+enum wind_slash{
+	projectile
+}
