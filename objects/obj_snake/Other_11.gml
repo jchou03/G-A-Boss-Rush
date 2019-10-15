@@ -7,20 +7,26 @@ direction_ = point_direction(x,y,_hole.x,_hole.y);
 speed_ = 2;
 move_movement_entity(true);
 
+// once entering a hole, chose a random hole and go to it
 if(position_meeting(x,y,_hole)){
-	// randomly chose another hole and go to it
+	// temporarily deactivate the hole the snake is entering to remove it from the possible exit holes
 	instance_deactivate_object(_hole);
-	// crate 
+	// create an array of all the possible exit holes
 	var _all_holes = [];
 	for(var i = 0; i < instance_number(obj_hole); i++){
 		_all_holes[i] = instance_find(obj_hole,i);
 		show_debug_message(instance_find(obj_hole,i));
 	}
-	var _new_hole = _all_holes[irandom(instance_number(obj_hole)-2)];
+	// randomly chose a new hole to exit from
+	var _new_hole = _all_holes[irandom(instance_number(obj_hole)-1)];
+	// reactivate the enter hole
 	instance_activate_object(_hole);
+	// go to the new hole
 	if(instance_exists(_new_hole)){
+		burrow_ = true;
 		x = _new_hole.x;
 		y = _new_hole.y;
 	}
+	alarm[3] = global.one_second * random(2);
 	state_ = snake.idle;
 }

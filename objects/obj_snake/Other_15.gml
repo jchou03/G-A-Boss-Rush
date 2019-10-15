@@ -1,6 +1,9 @@
 /// @description move state
 var _player_distance = distance_to_object(obj_player);
 
+// reset burrow check
+burrow_ = false;
+
 if(alarm[2] <= 0){
 	if(_player_distance <= 64){
 		alarm[3] = global.one_second * random(3);
