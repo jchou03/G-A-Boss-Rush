@@ -10,7 +10,8 @@
         "b598e63f-8895-4cbb-ae51-bd3c58749591",
         "ce28f59f-93ba-4b24-b7aa-f6bd1664a1cd",
         "b3f2a2fc-2243-44fa-9cc6-018ba8f54598",
-        "65f2cb92-317c-4aed-bb65-ce48e39f1db5"
+        "65f2cb92-317c-4aed-bb65-ce48e39f1db5",
+        "e9a613a3-53c2-4122-a525-0678c8ad2f06"
     ],
     "filterType": "GMSprite",
     "folderName": "World Sprites",

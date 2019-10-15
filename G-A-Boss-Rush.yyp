@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "14d4b824-0534-4623-a37f-4901d6cd4e0d",
+            "Value": {
+                "id": "5c716a9e-fbdf-442e-bc65-19ffb8705803",
+                "resourcePath": "views\\ca6b1e60-bee8-48b4-a98b-c98fdb0aff67-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "168fc8bf-e63e-4cd3-bcb1-0c07572af168",
             "Value": {
                 "id": "0b309e45-24b2-4a77-ab4a-6f440b1027e8",
@@ -1207,6 +1215,14 @@
             }
         },
         {
+            "Key": "bac27248-7bf5-4270-939e-257ccda4f09a",
+            "Value": {
+                "id": "17b7900b-aee2-446a-805a-2c27fa3a9972",
+                "resourcePath": "tilesets\\t_plantpatch\\t_plantpatch.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "bce4502c-d52d-44d7-bb15-164125bfb1b0",
             "Value": {
                 "id": "9c857db6-a602-4db9-8579-421cda0d8df9",
@@ -1531,6 +1547,14 @@
             "Value": {
                 "id": "23129c10-bd08-4037-90fb-ccd71eb8cd2c",
                 "resourcePath": "sprites\\spr_sword_hitbox\\spr_sword_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9a613a3-53c2-4122-a525-0678c8ad2f06",
+            "Value": {
+                "id": "7528a098-b535-408c-92dd-697e818ca441",
+                "resourcePath": "sprites\\spr_plantBackground\\spr_plantBackground.yy",
                 "resourceType": "GMSprite"
             }
         },

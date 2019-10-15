@@ -11,4 +11,7 @@ var _direction = tan(_ratio);
 //^ should change which animation it uses.
 var _suggested_x = obj_bear.x+(cos(_direction)*_speed);
 var _suggested_y = obj_bear.y+(sin(_direction)*_speed);
-move_towards_point(
+if point_distance(x, y, _suggested_x, _suggested_y) > 5 {
+	move_towards_point(_suggested_x, _suggested_y, 50);
+	}
+else speed = 0;
