@@ -1,8 +1,7 @@
 /// @description swarm state
 
+acting = true;
 lastAct = mosquito.swarm;
 speed = 0;
-sprite_index = spr_mosquito_land;
+sprite_index = spr_mosquito_swarm;
 alarm[5] = 60;
-state = mosquito.idle;
-event_user(state);

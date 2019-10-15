@@ -6,6 +6,7 @@ direction = point_direction(x,y,obj_player.x,obj_player.y) + irandom_range(-devi
 speed = 3;
 alarm[4] = 60;
 acting = true;//is now currently in an action
+attacking = true;
 
 if (direction >= 315 or direction < 45) {
 	facing = 1;//right

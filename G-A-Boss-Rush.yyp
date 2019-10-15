@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "30d5db7b-9f35-4bda-b25c-0bad114d5568",
+            "Value": {
+                "id": "7bc0f336-e043-4245-9aa1-ee37ab1c6a92",
+                "resourcePath": "sprites\\spr_mosquito_swarm\\spr_mosquito_swarm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3181fb70-3b24-4d25-b1a4-e6fe72989e45",
             "Value": {
                 "id": "09e55d2a-5c29-4b5b-86fb-d20e4f14c27d",

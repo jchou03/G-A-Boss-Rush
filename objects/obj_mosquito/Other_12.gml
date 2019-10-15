@@ -1,5 +1,6 @@
 /// @description fly state
 
+invincible_ = true;
 lastAct = mosquito.fly;
 acting = true;
 var deviation = 100;

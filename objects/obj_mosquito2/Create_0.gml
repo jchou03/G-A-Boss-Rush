@@ -6,6 +6,7 @@ health = 1;//current health
 state = mosquito2.move;//which of the states it's in
 
 acting = false;//if it is mid-action
+attackDist1 = 50;
 
 lifetime = 256;
 alarm[2] = lifetime;
