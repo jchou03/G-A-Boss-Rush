@@ -16,14 +16,14 @@ var _hud_right_edge = max(3 + global.player_max_health * 15, 2 + global.player_m
 draw_sprite_ext(spr_hud,0,0,_gui_height,_hud_right_edge,1,0,c_white,1);
 draw_sprite(spr_hud_edge,0,_hud_right_edge,_gui_height);
 
-for (var i = 0; i < global.player_max_health; i++){
-	var _filled = i < global.player_health;
-	draw_sprite(spr_heart_ui, _filled, 4+15*i, _gui_height-29);
-}
-for(var i = 0; i < global.player_max_stamina; i++){
-	var _filled = i < global.player_stamina;
-	draw_sprite(spr_stamina_ui, _filled, 4 + 17 * i, _gui_height - 17);
-}
+//for (var i = 0; i < global.player_max_health; i++){
+//	var _filled = i < global.player_health;
+//	draw_sprite(spr_heart_ui, _filled, 4+15*i, _gui_height-29);
+//}
+//for(var i = 0; i < global.player_max_stamina; i++){
+//	var _filled = i < global.player_stamina;
+//	draw_sprite(spr_stamina_ui, _filled, 4 + 17 * i, _gui_height - 17);
+//}
 
 var _gem_string = string(global.player_gems);
 var _text_width = string_width(_gem_string);

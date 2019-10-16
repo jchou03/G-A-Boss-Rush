@@ -8,7 +8,8 @@
         "fa523c04-63f8-4a44-b2de-36bc3438e267",
         "d28bdbb0-e086-448c-8838-71d480b3b635",
         "9d6c44e1-31fb-4985-87e1-ca10342eb2a2",
-        "f7b43483-377e-4ce2-9d7a-57a40cdddc18"
+        "f7b43483-377e-4ce2-9d7a-57a40cdddc18",
+        "c7c526df-d7ed-43f2-8a7a-176e5734e60e"
     ],
     "filterType": "GMObject",
     "folderName": "Collision Objects",
