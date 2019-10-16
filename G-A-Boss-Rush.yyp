@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "51acdb96-a740-4c8b-a8c6-07c03827efbb",
+            "Value": {
+                "id": "08712c59-7b4f-4242-9801-929f6fe8e921",
+                "resourcePath": "sprites\\spr_snake_hole_dive\\spr_snake_hole_dive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51da0d04-38f8-4750-89c9-61837e7147ae",
             "Value": {
                 "id": "3ab0a0a4-548f-466a-9ede-23a46ca4771d",
