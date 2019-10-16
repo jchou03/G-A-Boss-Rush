@@ -1,7 +1,7 @@
 event_inherited();
 image_speed = 0.5;
 
-max_health_ = 15;
+max_health_ = 10;
 health_ = max_health_;
 starting_state_ = snake.idle;
 state_ = starting_state_;
