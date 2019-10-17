@@ -15,7 +15,7 @@ if(animation_hit_frame(11)){
 if (attacking = 0){
 	oil_attack();
 	attacking = 1;
-	alarm[2] = .7 * global.one_second;
+	alarm[2] = .5 * global.one_second;
 	image_speed = 2;
 }
 

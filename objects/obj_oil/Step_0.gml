@@ -5,7 +5,7 @@ depth = -y;
 
 if (go_time = 0 && distance_to_object(obj_drop) < 1){
 	go_time = 1;
-	alarm[0] = 3 * global.one_second;
+	alarm[0] = 2 * global.one_second;
 }
 
 if (go_time = 1){
