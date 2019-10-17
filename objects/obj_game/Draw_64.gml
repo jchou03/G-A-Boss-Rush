@@ -13,8 +13,8 @@ if sprite_exists(paused_sprite_) && paused_{
 }
 
 var _hud_right_edge = max(3 + global.player_max_health * 15, 2 + global.player_max_stamina * 17);
-draw_sprite_ext(spr_hud,0,0,_gui_height,_hud_right_edge,1,0,c_white,1);
-draw_sprite(spr_hud_edge,0,_hud_right_edge,_gui_height);
+//draw_sprite_ext(spr_hud,0,0,_gui_height,_hud_right_edge,1,0,c_white,1);
+//draw_sprite(spr_hud_edge,0,_hud_right_edge,_gui_height);
 
 //for (var i = 0; i < global.player_max_health; i++){
 //	var _filled = i < global.player_health;
