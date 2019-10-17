@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "30d5db7b-9f35-4bda-b25c-0bad114d5568",
-            "Value": {
-                "id": "7bc0f336-e043-4245-9aa1-ee37ab1c6a92",
-                "resourcePath": "sprites\\spr_mosquito_swarm\\spr_mosquito_swarm.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3181fb70-3b24-4d25-b1a4-e6fe72989e45",
             "Value": {
                 "id": "09e55d2a-5c29-4b5b-86fb-d20e4f14c27d",
@@ -284,14 +276,6 @@
                 "id": "85ed46d3-c8be-4192-b25f-d5bf5c6ae342",
                 "resourcePath": "objects\\obj_input\\obj_input.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "32ea09e4-74fa-45a8-9463-68b849ab4a24",
-            "Value": {
-                "id": "ebeed0a0-608d-493e-98d2-a3b797d21440",
-                "resourcePath": "sprites\\spr_mosquito_fly_down\\spr_mosquito_fly_down.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -323,14 +307,6 @@
             "Value": {
                 "id": "5c10ef0a-b265-4a17-b890-67826be488d8",
                 "resourcePath": "sprites\\spr_small_shadow\\spr_small_shadow.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3dbb6f02-1a3a-4b90-bad7-c6a49721f2fc",
-            "Value": {
-                "id": "049f951f-e582-4269-91de-7a95ff86070d",
-                "resourcePath": "sprites\\spr_small_mosquito_side\\spr_small_mosquito_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -719,14 +695,6 @@
             }
         },
         {
-            "Key": "73c09601-4d40-45d6-a249-36efcb4c9150",
-            "Value": {
-                "id": "933be73e-05e4-44cd-8012-f159c2a1ab2e",
-                "resourcePath": "sprites\\spr_mosquito_fly_up\\spr_mosquito_fly_up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "749909a6-efce-43a6-aff2-f891b91c27e2",
             "Value": {
                 "id": "6c141bd1-eb73-4c09-ba0f-8e22c9b44daa",
@@ -919,6 +887,14 @@
             }
         },
         {
+            "Key": "8b806a0e-b851-44af-aa41-dafd8e4352f4",
+            "Value": {
+                "id": "789dd556-0421-4c4c-a9f8-4e89742403af",
+                "resourcePath": "objects\\obj_plague\\obj_plague.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c174178-d2e2-41e0-b84e-85c4fccf2c3d",
             "Value": {
                 "id": "492bb54f-46ee-4a5a-a263-c01c544b8652",
@@ -980,14 +956,6 @@
                 "id": "825402af-6192-4b30-9968-1a61272d49d7",
                 "resourcePath": "views\\931bb9da-88b3-44f0-9346-171279e5d5bb.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9360bb77-9630-4c8a-8609-89ea2a8d3b7c",
-            "Value": {
-                "id": "9481b403-1b3e-4432-ba5c-e3a72c600a3e",
-                "resourcePath": "sprites\\spr_small_mosquito_down\\spr_small_mosquito_down.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1095,6 +1063,14 @@
             }
         },
         {
+            "Key": "a33f0c05-d208-4acd-93e3-606d3138d765",
+            "Value": {
+                "id": "b3663756-28a1-484b-bedf-f8d707392d1b",
+                "resourcePath": "sprites\\spr_grassBackground1\\spr_grassBackground1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6013cb2-7454-418f-94f8-34f22c886141",
             "Value": {
                 "id": "187d5c28-264c-4b23-80ea-36196d106ffc",
@@ -1116,14 +1092,6 @@
                 "id": "e7fa2fee-4b3f-43ff-95bf-016b9d3923ea",
                 "resourcePath": "rooms\\r_init\\r_init.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "a80ef49c-9d50-4cd9-9417-a315798f23cb",
-            "Value": {
-                "id": "1848905b-caaa-4d05-8764-6b3abd74e69b",
-                "resourcePath": "objects\\obj_proboscis\\obj_proboscis.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1255,10 +1223,10 @@
             }
         },
         {
-            "Key": "c1aeb9e3-de79-42ad-a11e-317aa69a5fdc",
+            "Key": "c1ac87a2-e438-42b4-a0d8-feed5773b069",
             "Value": {
-                "id": "002b1f24-e13b-433a-839e-b5893114e8ef",
-                "resourcePath": "sprites\\spr_mosquito_land\\spr_mosquito_land.yy",
+                "id": "63320525-d598-4d72-b4a6-fa19b4ad98b9",
+                "resourcePath": "sprites\\spr_small_mosquito_die\\spr_small_mosquito_die.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1399,18 +1367,18 @@
             }
         },
         {
-            "Key": "d211c943-4b36-4da8-bf50-267b414879ac",
+            "Key": "d05a767d-5a21-4b52-a286-9f5a8d67ef8d",
             "Value": {
-                "id": "9ac3736a-d338-4d40-b9bd-6dba473f4c86",
-                "resourcePath": "sprites\\spr_player_bow_up\\spr_player_bow_up.yy",
+                "id": "2bf6e1c2-dbf4-4170-bf4a-99aff35bad34",
+                "resourcePath": "sprites\\spr_mosquito_land\\spr_mosquito_land.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "d2742de8-3172-4e94-b01d-f9b7be8b76e7",
+            "Key": "d211c943-4b36-4da8-bf50-267b414879ac",
             "Value": {
-                "id": "9035189a-95ac-4c40-9b5b-b6e9f5023d61",
-                "resourcePath": "sprites\\spr_mosquito_proboscis\\spr_mosquito_proboscis.yy",
+                "id": "9ac3736a-d338-4d40-b9bd-6dba473f4c86",
+                "resourcePath": "sprites\\spr_player_bow_up\\spr_player_bow_up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1631,6 +1599,14 @@
             }
         },
         {
+            "Key": "f5cd101f-ef7e-4c2f-907c-7c50618dfbac",
+            "Value": {
+                "id": "0026a16f-0aaa-4a1f-b2cd-da38df7da679",
+                "resourcePath": "sprites\\spr_small_mosquito_side\\spr_small_mosquito_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7b43483-377e-4ce2-9d7a-57a40cdddc18",
             "Value": {
                 "id": "20ced6ab-67c0-45bf-91bc-07dd18119af5",
@@ -1644,14 +1620,6 @@
                 "id": "b794d896-6867-4b49-8a1a-b03e52ba17ec",
                 "resourcePath": "objects\\obj_start_position\\obj_start_position.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fbb9d26a-9895-4b07-ba89-3e2c5fd81520",
-            "Value": {
-                "id": "51457361-e844-4fcd-93a1-b48adfa88742",
-                "resourcePath": "sprites\\spr_small_mosquito_up\\spr_small_mosquito_up.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

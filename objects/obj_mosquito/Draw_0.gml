@@ -1,5 +1,7 @@
 /// @description Insert description here
 /// @description Draw stuff lmao
-draw_sprite(spr_medium_shadow,0,x,y);
+if (state != mosquito.fly) {
+	draw_sprite(spr_mosquito_fly,0,x,y + 50);
+}
 draw_self();
 draw_self_flash(c_white, 12, alarm[6]);

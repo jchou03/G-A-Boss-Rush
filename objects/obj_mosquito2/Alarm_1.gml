@@ -2,4 +2,4 @@
 
 speed = 0;
 acting = false;
-
+attacking = false;

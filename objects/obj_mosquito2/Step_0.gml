@@ -13,5 +13,11 @@ if (!acting) {
 		event_user(state);
 	}
 } else if (attacking) {
-	create_hitbox(spr_bomb_hitbox,x,y,direction,10,[obj_player],1,5);
+	create_hitbox(spr_small_mosquito_side,x,y,direction,10,[obj_player],1,5);
+}
+
+if (direction >= 270 or direction < 90) {
+	image_xscale = 1;
+} else {
+	image_xscale = -1;
 }

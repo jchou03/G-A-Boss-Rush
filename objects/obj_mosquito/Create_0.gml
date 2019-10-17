@@ -1,12 +1,12 @@
 /// @description setup; variable definitions and such
-//things to add:
+//things to do:
 /*
 set up sounds
 */
 event_inherited();
 image_speed = 1;
 
-maxHealth = 25;//maximum health
+maxHealth = 20;//maximum health
 health_ = maxHealth;//current health
 invincible_ = false;
 state = mosquito.idle;//which of the states it's in
