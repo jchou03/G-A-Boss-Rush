@@ -4,6 +4,7 @@
 set up sounds
 */
 event_inherited();
+
 image_speed = 1;
 
 maxHealth = 20;//maximum health

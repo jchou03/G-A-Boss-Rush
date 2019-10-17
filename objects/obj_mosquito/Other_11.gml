@@ -5,13 +5,3 @@ direction = point_direction(x,y,obj_player.x,obj_player.y) + irandom_range(-devi
 speed = 2;
 alarm[1] = 20;
 acting = true;//is now currently in an action
-
-if (direction >= 270 or direction < 90) {
-	facing = 1;//right
-	sprite_index = spr_mosquito_fly_side;
-	image_xscale = 1;
-} else {
-	facing = 4;//left
-	sprite_index = spr_mosquito_fly_side;
-	image_xscale = -1;
-}

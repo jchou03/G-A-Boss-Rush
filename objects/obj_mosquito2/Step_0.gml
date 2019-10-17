@@ -1,7 +1,7 @@
 /// @description frame by frame update
 
 depth = -y;
-if health <= 0 {
+if (health <= 0  or !instance_exists(obj_player)) {
 	instance_destroy();
 }
 if (!acting) {

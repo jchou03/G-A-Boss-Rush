@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "f6fe636b-226d-4310-878e-9b2af5150b94",
+            "Value": {
+                "id": "4e9d78f4-425e-4bd1-8d91-7a7025b556a8",
+                "resourcePath": "sprites\\spr_small_mosquito_die2\\spr_small_mosquito_die2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7b43483-377e-4ce2-9d7a-57a40cdddc18",
             "Value": {
                 "id": "20ced6ab-67c0-45bf-91bc-07dd18119af5",

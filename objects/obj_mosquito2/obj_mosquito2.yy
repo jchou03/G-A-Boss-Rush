@@ -126,7 +126,6 @@
         },
         {
             "id": "2af5f189-b10e-4cdf-aba6-105e1f3b4071",
-
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -150,7 +149,36 @@
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "5c10f9d9-2026-4a11-81d6-e248cf689283",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "d2fc0aef-51b9-4778-b920-911d6896414b",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 16,
+            "y": 0
+        },
+        {
+            "id": "ec93e8dd-d473-4465-8550-a4552c0cea38",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 16,
+            "y": 16
+        },
+        {
+            "id": "e9c2af77-f06a-447d-91f0-a972b2a2b516",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 16
+        }
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
