@@ -10,7 +10,11 @@ if(alarm[2] <= 0){
 		state_ = snake.idle;
 	}else if(_player_distance > 64){
 		attack_counter_ = irandom(4);
-		state_ = snake.idle;
+		if(irandom(1) == 1){
+			state_ = snake.venom;
+		}else{
+			state_ = snake.idle;
+		}
 	}
 	
 }

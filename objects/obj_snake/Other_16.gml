@@ -2,7 +2,7 @@
 
 var _direction_choice = random(360);
 var _attack = irandom(1);
-show_debug_message("Health % 4: " + string(health_%4));
+
 if(health_%4 == 0 && !burrow_){
 	state_ = snake.burrow;
 }
