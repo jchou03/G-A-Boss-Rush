@@ -1,6 +1,7 @@
 /// @description Attack State
 // You can write your code in this editor
 
+state_ = bear.attack;
 var _damage = 3;
 var _knockback = 4;
 var _player = instance_place(x,y,obj_player);
@@ -9,8 +10,12 @@ if _player != noone {
 }
 
 if (!instance_exists(obj_player)){
-	state_ = bear.move;
+	state_ = bear.idle;
+	event_user(state_);
 	exit;
+} if (distance_to_object(obj_player) <= range_) {
+	state_ = bear.attack;
+	event_user(state_);
+} else {
+	event_user(bear.move);
 }
-
-event_user(bear.idle);

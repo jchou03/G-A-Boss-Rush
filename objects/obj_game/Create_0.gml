@@ -6,7 +6,7 @@ var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567
 global.font = font_add_sprite_ext(spr_font,_font_string,true,1);
 draw_set_font(global.font);
 
-global.player_max_health = 40000;
+global.player_max_health = 40;
 global.player_health = global.player_max_health;
 global.player_max_stamina = 300;
 global.player_stamina = global.player_max_stamina;

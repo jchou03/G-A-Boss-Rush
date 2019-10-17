@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(state_ != bear.move) {
-	audio_play_sound(a_porcupine_attack, 5, false); 
+	//audio_play_sound(a_porcupine_attack, 5, false); Just troubleshooting
 	player_x = obj_player.x;
 	player_y = obj_player.y;
 
@@ -21,12 +21,14 @@ if(_direction > pi/4 && _direction < 3*pi/4) {
 } else {
 	object_set_sprite(obj_bear, spr_bear_idle);
 }
-move_towards_point(player_x, player_y, 2);
+
 
 var _suggested_x = obj_bear.x+(cos(_direction)*_speed);
 var _suggested_y = obj_bear.y+(sin(_direction)*_speed);
 
-move_towards_point(_suggested_x, _suggested_y, 2);
+if(!position_meeting(_suggested_x, _suggested_y, obj_solid)) {
+	move_towards_point(_suggested_x, _suggested_y, 1);
+}
 
 if(distance_to_object(obj_player) <= range_) {
 	state_ = bear.attack;
