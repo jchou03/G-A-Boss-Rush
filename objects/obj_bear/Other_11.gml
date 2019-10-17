@@ -21,3 +21,7 @@ if(instance_exists(obj_player)) {
 	}
 	else speed = 0;
 }
+
+if(instance_exists(obj_player) && distance_to_object(obj_player) <= range_){
+	state_ = bear.attack;
+}
