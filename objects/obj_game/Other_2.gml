@@ -1,2 +1,2 @@
 
-room_goto(r_snake);
+room_goto(r_fish);
