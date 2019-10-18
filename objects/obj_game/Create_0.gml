@@ -6,9 +6,16 @@ var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567
 global.font = font_add_sprite_ext(spr_font,_font_string,true,1);
 draw_set_font(global.font);
 
+<<<<<<< HEAD
+global.player_max_health = 10;
+global.player_health = global.player_max_health;
+global.player_max_stamina = 10;
+
+=======
 global.player_max_health = 40000;
 global.player_health = global.player_max_health;
 global.player_max_stamina = 300;
+>>>>>>> parent of 7c08054... Mosquito (#1)
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0;
 global.start_x = noone;
@@ -37,6 +44,9 @@ inventory_add_item(obj_ring_item);
 //inventory_add_item(obj_sword_item);
 inventory_add_item(obj_bomb_item);
 inventory_add_item(obj_bow_item);
+
+//randomize the seed
+randomize();
 
 //z-titling setup
 gpu_set_ztestenable(true)
