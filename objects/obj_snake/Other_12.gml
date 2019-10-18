@@ -7,7 +7,7 @@ if(instance_exists(obj_player) && attack_counter_ > 0){
 		var _venom = instance_create_layer(x,y,"Instances",obj_venom)
 
 		var _distance = point_distance(x,y,obj_player.x,obj_player.y)
-		var _error = _distance/5
+		var _error = _distance/1.5;
 		var _direction = point_direction(x,y,obj_player.x+irandom_range(-_error/2,_error/2),obj_player.y+irandom_range(-_error/2,_error/2))
 
 		_venom.direction = _direction;

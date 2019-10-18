@@ -1,1 +1,1 @@
-/// @description override the destroy alarm
+/// @description override default destroy alarm

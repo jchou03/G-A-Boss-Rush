@@ -1,7 +1,9 @@
-depth = -y;
-
-if(place_meeting(x,y,obj_player)){
-	layer = layer_get_id("Venom");
-	speed = 0;
-	image_index = 1;
+if(state_ = venom.projectile){
+	event_user(state_);
+}
+if((place_meeting(x,y,obj_player) || place_meeting(x,y,obj_solid)) && collision_ == false){
+	collision_ = true;
+	state_ = venom.puddle;
+	event_user(state_);
+	alarm[1] = global.one_second;
 }
