@@ -210,7 +210,7 @@
             "Key": "1c00c074-ebb4-4ce4-b6b2-e80ef400915b",
             "Value": {
                 "id": "4677319c-00dd-406b-9706-ae782916e65b",
-                "resourcePath": "sprites\\sprite61\\sprite61.yy",
+                "resourcePath": "sprites\\spr_spike\\spr_spike.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "322daafd-34ca-4e04-95c0-4321eb402775",
             "Value": {
                 "id": "908d08fa-b806-44de-89fe-1d2f5e866820",
-                "resourcePath": "sprites\\sprite60\\sprite60.yy",
+                "resourcePath": "sprites\\spr_hurricane\\spr_hurricane.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "5f6d4a53-975f-4c4e-ad54-4039d8491f61",
             "Value": {
                 "id": "05658d25-8aa6-4c79-ac48-33685a8903da",
-                "resourcePath": "sprites\\sprite58\\sprite58.yy",
+                "resourcePath": "sprites\\spr_pufferfish\\spr_pufferfish.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1498,7 +1498,7 @@
             "Key": "e4a7d5b7-05b0-4ad2-bf60-96a6f07f2672",
             "Value": {
                 "id": "1b121eb0-b520-4a70-9dba-d106c1ba1347",
-                "resourcePath": "sprites\\sprite59\\sprite59.yy",
+                "resourcePath": "sprites\\spr_wind_slash\\spr_wind_slash.yy",
                 "resourceType": "GMSprite"
             }
         },
