@@ -2,8 +2,7 @@
 
 if(instance_exists(obj_player) && attack_counter_ > 0){
 	
-	image_xscale = sign(lengthdir_x(point_distance(x,y,obj_player.x,obj_player.y),point_direction(x,y,obj_player.x,obj_player.y)))
-	
+		
 	if(alarm[1] <= 0){
 		var _venom = instance_create_layer(x,y,"Instances",obj_venom)
 
