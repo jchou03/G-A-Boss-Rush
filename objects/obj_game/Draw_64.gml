@@ -25,11 +25,11 @@ var _hud_right_edge = max(3 + global.player_max_health * 15, 2 + global.player_m
 //	draw_sprite(spr_stamina_ui, _filled, 4 + 17 * i, _gui_height - 17);
 //}
 
-var _gem_string = string(global.player_gems);
-var _text_width = string_width(_gem_string);
-var _x = _gui_width - _text_width+4;
-var _y = _gui_height - 16 + 4;
-draw_sprite(spr_gem,0,_x-16,_y+7);
-draw_text(_x-8, _y-1, _gem_string);
+//var _gem_string = string(global.player_gems);
+//var _text_width = string_width(_gem_string);
+//var _x = _gui_width - _text_width+4;
+//var _y = _gui_height - 16 + 4;
+//draw_sprite(spr_gem,0,_x-16,_y+7);
+//draw_text(_x-8, _y-1, _gem_string);
 
 inventory_draw(4,36);

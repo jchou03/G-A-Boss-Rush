@@ -29,12 +29,12 @@ paused_sprite_ = false;
 paused_sprite_scale_ = display_get_gui_width()/view_wport[0];
 
 item_index_ = 0;
-global.item[0] = noone;
-global.item[1] = noone;
+global.item[0] = obj_sword_item;
+global.item[1] = obj_sword_item;
 
 inventory_create(6);
 inventory_add_item(obj_ring_item);
-//inventory_add_item(obj_sword_item);
+inventory_add_item(obj_sword_item);
 inventory_add_item(obj_bomb_item);
 inventory_add_item(obj_bow_item);
 

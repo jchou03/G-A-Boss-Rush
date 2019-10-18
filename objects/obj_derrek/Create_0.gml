@@ -7,13 +7,15 @@
 attacking = 0;
 
 image_speed = 0;
-max_health_ = 16;
+max_health_ = 5;
 health_ = max_health_;
 
 starting_state_ = noone;
 state_ = starting_state_;
 
 randomize();
+
+crab_dead = false;
 
 i = 0;
 while (i < 15){
