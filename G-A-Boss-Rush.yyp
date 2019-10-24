@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "79976f82-f06f-4df4-aa8d-5ab447bf13c9",
+            "Value": {
+                "id": "e5de34ae-fd88-44e9-98e6-b6728928660a",
+                "resourcePath": "views\\79976f82-f06f-4df4-aa8d-5ab447bf13c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7abf7675-bda6-4deb-a9a0-24ab72ad87fd",
             "Value": {
                 "id": "2dc44fbf-e359-4676-a500-99274bcf76f6",
@@ -1460,6 +1468,14 @@
                 "id": "d2dc46c7-7064-4a50-b59c-793cea10d4fe",
                 "resourcePath": "rooms\\r_world\\r_world.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "deb7fefc-7100-402c-807e-7eadc8d0327e",
+            "Value": {
+                "id": "8c715fa6-57b9-4126-bba0-ac779a6c25e2",
+                "resourcePath": "sprites\\spr_venom_puddle\\spr_venom_puddle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -3,7 +3,7 @@ image_speed = 0.5;
 
 max_health_ = 10;
 health_ = max_health_;
-starting_state_ = snake.idle;
+starting_state_ = snake.venom;
 state_ = starting_state_;
 
 // variable for number of venom attacks
