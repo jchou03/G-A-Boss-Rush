@@ -1,2 +1,2 @@
 
-room_goto(r_crab);
+room_goto(r_bug1);
