@@ -1,17 +1,11 @@
 event_inherited();
 image_speed = 0.5;
 
-max_health_ = 10;
+max_health_ = 15;
 health_ = max_health_;
-starting_state_ = snake.venom;
-state_ = starting_state_;
+state_ = snake.venom;
 
-// variable for number of venom attacks
-attack_counter_ = 4;
-// variable for whether tail has attacked yet
-tail_attack_ = false;
-// variable for checking burrow
-burrow_ = false;
+attack_counter_ = 5;
 
 enum snake{
 	hit,
