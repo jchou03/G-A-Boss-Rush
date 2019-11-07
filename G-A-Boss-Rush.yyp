@@ -418,7 +418,7 @@
             "Key": "4b0c3251-9a2e-4909-8fbe-035ec26e712a",
             "Value": {
                 "id": "f4f78f16-d728-467b-b8ce-b1fedbff7539",
-                "resourcePath": "rooms\\r_bug1\\r_bug1.yy",
+                "resourcePath": "rooms\\r_snake\\r_snake.yy",
                 "resourceType": "GMRoom"
             }
         },
