@@ -1575,6 +1575,14 @@
             }
         },
         {
+            "Key": "e523db2e-291a-4b0c-8418-7ee6d4aaec7c",
+            "Value": {
+                "id": "1410a3c8-c267-4dfe-909e-1d392a18523b",
+                "resourcePath": "sprites\\spr_desertBackground\\spr_desertBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e5e7a788-aac7-4350-8e4c-50b4a02a5631",
             "Value": {
                 "id": "52de9d2c-863f-43aa-904a-f205111c4920",
