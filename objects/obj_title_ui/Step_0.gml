@@ -21,7 +21,7 @@ if(obj_input.action_one_pressed_ || keyboard_check_pressed(vk_enter)){
 			instance_create_layer(5,5,"Instances",obj_grass);
 			show_debug_message("new game");
 			audio_play_sound(a_menu_select,1,false);
-			room_goto(r_world);
+			room_goto(r_bug1);
 			break;
 		case options.credits:
 			audio_play_sound(a_menu_select,1,false);

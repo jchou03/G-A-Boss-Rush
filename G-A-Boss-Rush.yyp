@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0f6c8465-c46d-4e2a-95e2-e986c0df98c4",
+            "Value": {
+                "id": "b7e09e9d-8f6a-48eb-91e7-2608cb836c22",
+                "resourcePath": "objects\\obj_next_fight\\obj_next_fight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f7fa7a4-bcc1-46fc-a328-c689913d7255",
             "Value": {
                 "id": "b395381e-8e7b-469f-8493-4953cfcd52c0",
@@ -500,6 +508,14 @@
                 "id": "f37e82bd-a061-4641-bab0-f4eda0b8aa8a",
                 "resourcePath": "sounds\\a_set_bomb\\a_set_bomb.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "53134c87-07a8-4e0d-bef1-0701384815da",
+            "Value": {
+                "id": "8076cf30-3502-4cc1-8a16-30eba41b58c6",
+                "resourcePath": "scripts\\finish_fight\\finish_fight.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1885,7 +1901,8 @@
         "95b67364-9edb-4bf3-9381-78b139b2ce5e",
         "8da71db6-e52c-4e80-822c-c4b41d48e6c1",
         "b49302c7-60c8-4421-b1be-473d152f717b",
-        "0143b8e4-570c-4d13-9a1e-544a9905ace8"
+        "0143b8e4-570c-4d13-9a1e-544a9905ace8",
+        "53134c87-07a8-4e0d-bef1-0701384815da"
     ],
     "tutorial": ""
 }

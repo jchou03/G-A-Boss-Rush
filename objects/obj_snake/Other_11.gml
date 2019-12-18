@@ -30,7 +30,7 @@ if(place_meeting(x,y,_hole) && !burrow_){
 		}
 		// randomly chose a new hole to exit from
 		_new_hole = _all_holes[irandom(instance_number(obj_hole)-1)];
-		show_debug_message("new hole index: " + string(_new_hole));
+		//show_debug_message("new hole index: " + string(_new_hole));
 		// reactivate the enter hole
 		instance_activate_object(_hole);
 		// go to the new hole
@@ -42,12 +42,12 @@ if(place_meeting(x,y,_hole) && !burrow_){
 		}
 	}
 }
-show_debug_message("image index: " + string(image_index));
-show_debug_message("burrow: " + string(burrow_));
-show_debug_message("is place meeting with new hole: " + string(place_meeting(x,y,_new_hole)));
+//show_debug_message("image index: " + string(image_index));
+//show_debug_message("burrow: " + string(burrow_));
+//show_debug_message("is place meeting with new hole: " + string(place_meeting(x,y,_new_hole)));
 
 if(animation_hit_frame(9) && burrow_){
-	show_debug_message("exit the burrow state");
+	//show_debug_message("exit the burrow state");
 	alarm[3] = global.one_second * random(2);
 	sprite_index = spr_snake;
 	state_ = snake.idle;
