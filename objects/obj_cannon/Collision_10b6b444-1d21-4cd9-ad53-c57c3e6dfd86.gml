@@ -16,6 +16,8 @@ if hurtbox_entity_can_be_hit_by(other){
 	//create_animation_effect(spr_hit_effect,x,y-8,1,true);
 	//set_movement(_knockback_direction, other.knockback_);
 	firing = true;
-	obj_crab.health_ --;
-	obj_derrek.health_ --;
+	if(instance_exists(obj_crab) && instance_exists(obj_derrek)){
+		obj_crab.health_ --;
+		obj_derrek.health_ --;
+	}
 }

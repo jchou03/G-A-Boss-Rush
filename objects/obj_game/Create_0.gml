@@ -3,7 +3,7 @@ global.destroyed = [];
 instance_create_layer(0,0,"Instances",obj_input);
 
 var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890>,!':-+";
-global.font = font_add_sprite_ext(spr_font,_font_string,true,1);
+global.font = font_add_sprite_ext(spr_font,_font_string, true, 1);
 draw_set_font(global.font);
 
 global.player_max_health = 5;
