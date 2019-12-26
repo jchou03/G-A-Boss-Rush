@@ -19,7 +19,13 @@
         "d636f240-2ea5-4b52-93ae-ca55a8865877",
         "f6fe636b-226d-4310-878e-9b2af5150b94",
         "f5cd101f-ef7e-4c2f-907c-7c50618dfbac",
-        "deb7fefc-7100-402c-807e-7eadc8d0327e"
+        "deb7fefc-7100-402c-807e-7eadc8d0327e",
+        "757a3522-2b85-4a6c-abcf-b1fff8a4fc34",
+        "db980826-7447-40c8-9c5a-05ba2a7fd00a",
+        "56796517-0d81-4851-9767-75a7d98da031",
+        "81051efe-048e-407a-8075-03d93e5fa6a9",
+        "6ebeb0fe-7b12-43a3-a00e-83eec101e7c4",
+        "164418c1-7af7-44d5-b8dd-10050e5b48fd"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemy Sprites",
