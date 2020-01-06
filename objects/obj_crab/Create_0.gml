@@ -7,7 +7,7 @@
 attacking = 0;
 
 image_speed = .25;
-max_health_ = 10;
+max_health_ = 5;
 health_ = max_health_;
 
 starting_state_ = noone;
