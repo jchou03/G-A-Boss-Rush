@@ -15,10 +15,10 @@ if (!acting) {
 */
 
 //jank however I do not currently care
-if (x < 0) x = 0;
-else if (x > 384) x = 384;
-if (y < 0) y = 0;
-else if (y > 384) y = 384;
+if (x < 64) x = 64;
+else if (x > 320) x = 320;
+if (y < 64) y = 64;
+else if (y > 320) y = 320;
 
 if (!acting) {//not currently in an action
 	var dist = distance_to_object(obj_player);
