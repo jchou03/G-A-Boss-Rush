@@ -7,7 +7,8 @@ event_inherited();
 
 image_speed = 1;
 
-maxHealth = 20;//maximum health
+maxHealth = 18//maximum health
+max_health_ = maxHealth; //for getting obj_boss to access this value for health display without needing to change all the code
 health_ = maxHealth;//current health
 invincible_ = false;
 state = mosquito.idle;//which of the states it's in
