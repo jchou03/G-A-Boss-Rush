@@ -1527,6 +1527,14 @@
             }
         },
         {
+            "Key": "cb8d3fcf-0f12-487d-b549-4d4ea8d3455c",
+            "Value": {
+                "id": "17b0a26e-81bc-4634-82a0-2b7d6a4c6507",
+                "resourcePath": "objects\\obj_post_crab\\obj_post_crab.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cbefecf3-bd53-49ac-9f2b-216619716300",
             "Value": {
                 "id": "d24caf8d-0634-4ef8-a3e9-cafea17418cd",

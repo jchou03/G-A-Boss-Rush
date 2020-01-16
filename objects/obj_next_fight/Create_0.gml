@@ -3,5 +3,5 @@
 
 image_speed = 0.4;
 
-//next_room_ = r_crab;
+text_object_ = noone;
 

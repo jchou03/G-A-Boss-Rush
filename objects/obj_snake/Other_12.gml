@@ -1,4 +1,5 @@
 /// @description venom state
+if(!instance_exists(obj_player) || !instance_exists(self)) exit;
 
 if(instance_exists(obj_player) && attack_counter_ > 0){
 	image_xscale = sign(obj_player.x - obj_snake.x);
