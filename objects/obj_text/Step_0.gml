@@ -1,3 +1,5 @@
+show_debug_message("instance count:" + string(instance_count));
+
 if(index_ >= array_length_1d(text)){
 	show_debug_message("Please just show up");
 	instance_create_layer(20, 20, "Instances", obj_porcupine);

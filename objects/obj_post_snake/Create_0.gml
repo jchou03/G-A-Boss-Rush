@@ -1,5 +1,7 @@
 event_inherited();
 
+//room_instance_add(r_text,0,0,obj_post_snake);
+
 next_room_ = r_crab;
 
 text[0] = "The snake's venom was sure real spooky and stuff, thank you for taking care of it all.";
