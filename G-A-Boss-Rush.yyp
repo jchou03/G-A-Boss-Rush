@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "b237c1af-5f46-4af0-9311-dade57927348",
+            "Value": {
+                "id": "7e33ad39-10c2-4a73-892a-c7b167198a1b",
+                "resourcePath": "objects\\obj_credits\\obj_credits.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b3f2a2fc-2243-44fa-9cc6-018ba8f54598",
             "Value": {
                 "id": "9776ce24-48be-460a-bb5f-9bba142ee017",
