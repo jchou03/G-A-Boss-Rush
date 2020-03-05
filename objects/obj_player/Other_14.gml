@@ -1,9 +1,29 @@
 /// @description Bow State
 speed_ = 0;
 var _bow_speed = 0.5;
-image_speed = _bow_speed;
+image_speed = 0;
+
+if(gun_ == noone){
+	gun_ = instance_create_layer(x, y - 10, "Instances", obj_gun)
+	gun_.image_speed = 0
+}
+
+if(direction_facing_ == dir.right || direction_facing_ == dir.left){ 
+	gun_.image_xscale = image_xscale
+	image_index = 1
+}else if(direction_facing_ == dir.up) {
+	//_gun.sprite_index = spr_gun_up
+	image_index = 3
+}else if(direction_facing_ == dir.down) {
+	//_gun.sprite_index = spr_gun_down
+	image_index = 0
+}
+
+/*
+
 if animation_hit_frame(3){
 	image_speed = 0;
+	*/
 	var _released = false;
 	if(action_ = action.one){
 		_released = !obj_input.action_one_;
@@ -28,8 +48,11 @@ if animation_hit_frame(3){
 		}
 	}
 	
-}
-if animation_hit_frame(image_number-1){
-	state_ = player.move;
-	image_index = 0;
+//}
+with(gun_){
+	if animation_hit_frame(image_number-1){
+		show_debug_message("gun is done with animation");
+		other.state_ = player.move;
+		other.image_index = 0;
+	}
 }

@@ -16,7 +16,8 @@
         "8ed82dda-4ccb-4d14-a5ca-679f96aa5e3a",
         "9cbd4a7c-c2a8-4557-a5ae-4fe80cb80304",
         "d211c943-4b36-4da8-bf50-267b414879ac",
-        "03e9a624-b37e-4804-b529-56a2cee5e42e"
+        "03e9a624-b37e-4804-b529-56a2cee5e42e",
+        "629da073-3a74-4472-a37d-ee8a6fee9d53"
     ],
     "filterType": "GMSprite",
     "folderName": "Player Animation",
