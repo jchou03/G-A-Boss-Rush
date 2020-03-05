@@ -4,8 +4,7 @@ var _bow_speed = 0.5;
 image_speed = 0;
 
 if(gun_ == noone){
-	gun_ = instance_create_layer(x, y - 10, "Instances", obj_gun)
-	gun_.image_speed = 0
+	gun_ = instance_create_layer(x, y - 20, "Instances", obj_gun)
 }
 
 if(direction_facing_ == dir.right || direction_facing_ == dir.left){ 
@@ -46,13 +45,9 @@ if animation_hit_frame(3){
 			case dir.left: _arrow.y -= 4; break;
 			default: break;
 		}
+		state_ = player.move
+		image_index = 0;
+		gun_ = noone
 	}
 	
 //}
-with(gun_){
-	if animation_hit_frame(image_number-1){
-		show_debug_message("gun is done with animation");
-		other.state_ = player.move;
-		other.image_index = 0;
-	}
-}
