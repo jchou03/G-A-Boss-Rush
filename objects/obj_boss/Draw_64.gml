@@ -1,5 +1,24 @@
 /// @description Insert description here
 
+var _leftover_width = display_get_gui_width() - sprite_get_width(health_bar_sprite_)
+var _health_start = _leftover_width/2
+
+// draw the segements of health
+var _inside_width = sprite_get_width(health_bar_sprite_)-(2 * inside_health_width_)
+var _px_per_health = _inside_width/max_health_
+var _filled = health_ * _px_per_health
+
+
+for(var i = 0; i < _inside_width; i++){
+	if(i < _filled)	draw_sprite(health_sprite_, 0, _health_start + inside_health_width_ + i, top_health_bar_offset_)
+	else draw_sprite(health_sprite_, 1, _health_start + inside_health_width_ + i, top_health_bar_offset_)
+}
+
+// draw the health bar
+draw_sprite(health_bar_sprite_, 0, _health_start, 0)
+
+
+/*
 // variables for centering and scaling health bar
 var _leftover_width = display_get_gui_width() - (sprite_get_width(end_sprite_) * 2) - (sprite_get_width(health_sprite_)*max_health_);
 
@@ -37,4 +56,4 @@ for (var i = 0; i < max_health_; i++){
 		//show_debug_message("drawing at location: " + string(_health_start+(sprite_get_width(spr_stamina_ui)*i)));
 		draw_sprite(health_sprite_, _filled, _health_start+(sprite_get_width(health_sprite_)*i),0);
 	}
-}
+}*/

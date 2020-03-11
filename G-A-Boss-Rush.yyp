@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "631ed211-5caa-4cbc-a7f0-5e67059a7eb9",
+            "Value": {
+                "id": "4c8adcfd-d232-4373-b117-a75f7e252259",
+                "resourcePath": "sprites\\spr_health_vert_bar\\spr_health_vert_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65941f0d-201d-429d-80df-e286b390db81",
             "Value": {
                 "id": "743ff28d-fa79-430c-bf8b-7d132c1e4e6f",
