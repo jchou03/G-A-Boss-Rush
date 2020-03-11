@@ -7,8 +7,10 @@ alarm[1] = global.one_second;
 acceleration_ = 0.5;
 max_speed_ = 1.5;
 direction_facing_ = dir.right;
+
 roll_direction_ = 0;
 roll_speed_ = 2;
+roll_decay_speed_ = roll_speed_;
 
 found_item_sprite_ = noone;
 
