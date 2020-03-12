@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "22029343-415d-452d-a8e2-0f967114977f",
+            "Value": {
+                "id": "e17145c5-1312-4474-90d4-e40e70c65401",
+                "resourcePath": "objects\\obj_desert_wall_override\\obj_desert_wall_override.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "238de667-928f-45e4-b307-23e2a50d0e33",
             "Value": {
                 "id": "d6a94cea-e766-49f9-bb4f-3d0c60bec4ed",
